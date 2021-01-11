@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="FdrOrganization SummaryX">
-    <sch:name>FdrOrganization SummaryX</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="FdrOrganization DetailX">
+    <sch:name>FdrOrganization DetailX</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Custom</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
@@ -42,15 +42,15 @@
     </sch:pageAreas>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>Grid</sch:name>
+            <sch:name>SObjectDetail</sch:name>
             <sch:seqNumber>0</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType>DataGrid</sch:widgetType>
+            <sch:widgetType>SObjectDetail</sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Grid</sch:label>
+            <sch:label>SObjectDetail</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -68,7 +68,7 @@
             <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
-            <sch:display>false</sch:display>
+            <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
@@ -92,9 +92,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:props>{&#xd;
-    "defaultMode": "true"&#xd;
-}</sch:props>
+            <sch:props>{"objectType":"pi!objectType","oid":"pi!oid"}</sch:props>
             <sch:dataSourceType>Entity</sch:dataSourceType>
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
