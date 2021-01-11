@@ -92,7 +92,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:props>{"defaultMode":"true"}</sch:props>
+            <sch:props>{"defaultMode":"true"</sch:props>
             <sch:dataSourceType>Entity</sch:dataSourceType>
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
